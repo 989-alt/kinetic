@@ -1,0 +1,1575 @@
+{
+  "version": 1,
+  "format": "ogg-vorbis",
+  "sounds": {
+    "sfx_fire_hornet": {
+      "ref": "S-01",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_hornet.ogg",
+      "variants": [
+        "sfx_fire_hornet.ogg",
+        "sfx_fire_hornet_2.ogg",
+        "sfx_fire_hornet_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_hornet.ogg",
+          "duration": 0.41,
+          "gain_db": -2.3,
+          "lufs_integrated": -26.5,
+          "lufs_momentary_max": -26.5,
+          "true_peak_db": -2.7
+        },
+        {
+          "file": "sfx_fire_hornet_2.ogg",
+          "duration": 0.44,
+          "gain_db": -0.1,
+          "lufs_integrated": -24.2,
+          "lufs_momentary_max": -24.2,
+          "true_peak_db": -1.9
+        },
+        {
+          "file": "sfx_fire_hornet_3.ogg",
+          "duration": 0.41,
+          "gain_db": -0.1,
+          "lufs_integrated": -24.5,
+          "lufs_momentary_max": -24.5,
+          "true_peak_db": -2.2
+        }
+      ],
+      "duration": 0.42,
+      "note": "SMG: 9mm/7.62x25 SMG single shots; 3rd variant pitched +8%"
+    },
+    "sfx_fire_hornet_far": {
+      "ref": "S-01",
+      "category": "weapon_fire_far",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_hornet_far.ogg",
+      "variants": [
+        "sfx_fire_hornet_far.ogg",
+        "sfx_fire_hornet_far_2.ogg",
+        "sfx_fire_hornet_far_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_hornet_far.ogg",
+          "duration": 2.0,
+          "gain_db": -6.3,
+          "lufs_integrated": -30.5,
+          "lufs_momentary_max": -29.0,
+          "true_peak_db": -3.3
+        },
+        {
+          "file": "sfx_fire_hornet_far_2.ogg",
+          "duration": 1.58,
+          "gain_db": -11.8,
+          "lufs_integrated": -32.2,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -9.1
+        },
+        {
+          "file": "sfx_fire_hornet_far_3.ogg",
+          "duration": 1.46,
+          "gain_db": -11.6,
+          "lufs_integrated": -31.5,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -8.4
+        }
+      ],
+      "duration": 1.68,
+      "note": "far layer (>25m)"
+    },
+    "sfx_fire_lancer": {
+      "ref": "S-02",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_lancer.ogg",
+      "variants": [
+        "sfx_fire_lancer.ogg",
+        "sfx_fire_lancer_2.ogg",
+        "sfx_fire_lancer_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_lancer.ogg",
+          "duration": 0.64,
+          "gain_db": -3.9,
+          "lufs_integrated": -26.9,
+          "lufs_momentary_max": -26.9,
+          "true_peak_db": -2.4
+        },
+        {
+          "file": "sfx_fire_lancer_2.ogg",
+          "duration": 0.42,
+          "gain_db": -1.4,
+          "lufs_integrated": -25.0,
+          "lufs_momentary_max": -25.0,
+          "true_peak_db": -1.7
+        },
+        {
+          "file": "sfx_fire_lancer_3.ogg",
+          "duration": 0.34,
+          "gain_db": -1.2,
+          "lufs_integrated": -25.1,
+          "lufs_momentary_max": -25.1,
+          "true_peak_db": -2.2
+        }
+      ],
+      "duration": 0.47,
+      "note": "AR: AR-15, SKS, Marlin 336 single shots"
+    },
+    "sfx_fire_lancer_far": {
+      "ref": "S-02",
+      "category": "weapon_fire_far",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_lancer_far.ogg",
+      "variants": [
+        "sfx_fire_lancer_far.ogg",
+        "sfx_fire_lancer_far_2.ogg",
+        "sfx_fire_lancer_far_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_lancer_far.ogg",
+          "duration": 1.78,
+          "gain_db": -9.0,
+          "lufs_integrated": -34.6,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -6.1
+        },
+        {
+          "file": "sfx_fire_lancer_far_2.ogg",
+          "duration": 1.58,
+          "gain_db": -8.6,
+          "lufs_integrated": -33.3,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -5.3
+        },
+        {
+          "file": "sfx_fire_lancer_far_3.ogg",
+          "duration": 2.0,
+          "gain_db": -8.6,
+          "lufs_integrated": -31.2,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -5.2
+        }
+      ],
+      "duration": 1.79,
+      "note": "far layer"
+    },
+    "sfx_fire_longbow": {
+      "ref": "S-03",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_longbow.ogg",
+      "variants": [
+        "sfx_fire_longbow.ogg",
+        "sfx_fire_longbow_2.ogg",
+        "sfx_fire_longbow_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_longbow.ogg",
+          "duration": 0.33,
+          "gain_db": 0.2,
+          "lufs_integrated": -24.7,
+          "lufs_momentary_max": -24.7,
+          "true_peak_db": -2.2
+        },
+        {
+          "file": "sfx_fire_longbow_2.ogg",
+          "duration": 0.41,
+          "gain_db": -2.4,
+          "lufs_integrated": -26.4,
+          "lufs_momentary_max": -26.4,
+          "true_peak_db": -2.5
+        },
+        {
+          "file": "sfx_fire_longbow_3.ogg",
+          "duration": 0.97,
+          "gain_db": -2.1,
+          "lufs_integrated": -27.3,
+          "lufs_momentary_max": -24.4,
+          "true_peak_db": -2.3
+        }
+      ],
+      "duration": 0.57,
+      "note": "Sniper: Mosin, Savage 10, Tikka T3 bolt-action shots"
+    },
+    "sfx_fire_longbow_far": {
+      "ref": "S-03",
+      "category": "weapon_fire_far",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_longbow_far.ogg",
+      "variants": [
+        "sfx_fire_longbow_far.ogg",
+        "sfx_fire_longbow_far_2.ogg",
+        "sfx_fire_longbow_far_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_longbow_far.ogg",
+          "duration": 1.79,
+          "gain_db": -10.1,
+          "lufs_integrated": -33.1,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -6.8
+        },
+        {
+          "file": "sfx_fire_longbow_far_2.ogg",
+          "duration": 1.4,
+          "gain_db": -6.6,
+          "lufs_integrated": -32.6,
+          "lufs_momentary_max": -28.1,
+          "true_peak_db": -3.4
+        },
+        {
+          "file": "sfx_fire_longbow_far_3.ogg",
+          "duration": 1.8,
+          "gain_db": -10.5,
+          "lufs_integrated": -33.6,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -6.9
+        }
+      ],
+      "duration": 1.66,
+      "note": "far layer"
+    },
+    "sfx_fire_mauler": {
+      "ref": "S-04",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_mauler.ogg",
+      "variants": [
+        "sfx_fire_mauler.ogg",
+        "sfx_fire_mauler_2.ogg",
+        "sfx_fire_mauler_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_mauler.ogg",
+          "duration": 0.43,
+          "gain_db": -3.7,
+          "lufs_integrated": -25.4,
+          "lufs_momentary_max": -25.4,
+          "true_peak_db": -2.0
+        },
+        {
+          "file": "sfx_fire_mauler_2.ogg",
+          "duration": 0.8,
+          "gain_db": -4.0,
+          "lufs_integrated": -25.0,
+          "lufs_momentary_max": -25.0,
+          "true_peak_db": -1.9
+        },
+        {
+          "file": "sfx_fire_mauler_3.ogg",
+          "duration": 0.8,
+          "gain_db": -4.1,
+          "lufs_integrated": -25.5,
+          "lufs_momentary_max": -25.5,
+          "true_peak_db": -2.7
+        }
+      ],
+      "duration": 0.68,
+      "note": "Shotgun: 12ga pump-action shots"
+    },
+    "sfx_fire_mauler_far": {
+      "ref": "S-04",
+      "category": "weapon_fire_far",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_mauler_far.ogg",
+      "variants": [
+        "sfx_fire_mauler_far.ogg",
+        "sfx_fire_mauler_far_2.ogg",
+        "sfx_fire_mauler_far_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_mauler_far.ogg",
+          "duration": 2.49,
+          "gain_db": -10.3,
+          "lufs_integrated": -32.1,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -6.3
+        },
+        {
+          "file": "sfx_fire_mauler_far_2.ogg",
+          "duration": 2.26,
+          "gain_db": -9.0,
+          "lufs_integrated": -36.6,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -5.3
+        },
+        {
+          "file": "sfx_fire_mauler_far_3.ogg",
+          "duration": 2.0,
+          "gain_db": -10.0,
+          "lufs_integrated": -34.4,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -5.7
+        }
+      ],
+      "duration": 2.25,
+      "note": "far layer"
+    },
+    "sfx_fire_bastion": {
+      "ref": "S-05",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_bastion.ogg",
+      "variants": [
+        "sfx_fire_bastion.ogg",
+        "sfx_fire_bastion_2.ogg",
+        "sfx_fire_bastion_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_bastion.ogg",
+          "duration": 0.45,
+          "gain_db": -1.9,
+          "lufs_integrated": -23.9,
+          "lufs_momentary_max": -23.9,
+          "true_peak_db": -2.5
+        },
+        {
+          "file": "sfx_fire_bastion_2.ogg",
+          "duration": 0.78,
+          "gain_db": -3.9,
+          "lufs_integrated": -26.2,
+          "lufs_momentary_max": -26.2,
+          "true_peak_db": -2.5
+        },
+        {
+          "file": "sfx_fire_bastion_3.ogg",
+          "duration": 0.5,
+          "gain_db": -1.1,
+          "lufs_integrated": -24.4,
+          "lufs_momentary_max": -24.4,
+          "true_peak_db": -2.6
+        }
+      ],
+      "duration": 0.58,
+      "note": "LMG: AK-47 shot + AR-15/SKS pitched -16% for weight"
+    },
+    "sfx_fire_bastion_far": {
+      "ref": "S-05",
+      "category": "weapon_fire_far",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_bastion_far.ogg",
+      "variants": [
+        "sfx_fire_bastion_far.ogg",
+        "sfx_fire_bastion_far_2.ogg",
+        "sfx_fire_bastion_far_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_bastion_far.ogg",
+          "duration": 1.68,
+          "gain_db": -6.4,
+          "lufs_integrated": -36.1,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -3.9
+        },
+        {
+          "file": "sfx_fire_bastion_far_2.ogg",
+          "duration": 1.99,
+          "gain_db": -9.5,
+          "lufs_integrated": -34.9,
+          "lufs_momentary_max": -28.1,
+          "true_peak_db": -6.3
+        },
+        {
+          "file": "sfx_fire_bastion_far_3.ogg",
+          "duration": 1.88,
+          "gain_db": -9.1,
+          "lufs_integrated": -33.9,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -6.0
+        }
+      ],
+      "duration": 1.85,
+      "note": "far layer"
+    },
+    "sfx_fire_viper": {
+      "ref": "S-06",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_viper.ogg",
+      "variants": [
+        "sfx_fire_viper.ogg",
+        "sfx_fire_viper_2.ogg",
+        "sfx_fire_viper_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_viper.ogg",
+          "duration": 0.66,
+          "gain_db": -4.6,
+          "lufs_integrated": -28.1,
+          "lufs_momentary_max": -25.2,
+          "true_peak_db": -2.3
+        },
+        {
+          "file": "sfx_fire_viper_2.ogg",
+          "duration": 0.34,
+          "gain_db": 0.4,
+          "lufs_integrated": -24.5,
+          "lufs_momentary_max": -24.5,
+          "true_peak_db": -2.1
+        },
+        {
+          "file": "sfx_fire_viper_3.ogg",
+          "duration": 0.81,
+          "gain_db": -4.9,
+          "lufs_integrated": -29.7,
+          "lufs_momentary_max": -25.2,
+          "true_peak_db": -2.1
+        }
+      ],
+      "duration": 0.6,
+      "note": "Pistol: 1911, PPQ, Bersa"
+    },
+    "sfx_fire_viper_far": {
+      "ref": "S-06",
+      "category": "weapon_fire_far",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_viper_far.ogg",
+      "variants": [
+        "sfx_fire_viper_far.ogg",
+        "sfx_fire_viper_far_2.ogg",
+        "sfx_fire_viper_far_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_viper_far.ogg",
+          "duration": 1.79,
+          "gain_db": -12.9,
+          "lufs_integrated": -34.6,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -9.0
+        },
+        {
+          "file": "sfx_fire_viper_far_2.ogg",
+          "duration": 1.4,
+          "gain_db": -6.8,
+          "lufs_integrated": -32.8,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -3.3
+        },
+        {
+          "file": "sfx_fire_viper_far_3.ogg",
+          "duration": 1.74,
+          "gain_db": -8.4,
+          "lufs_integrated": -35.8,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -4.6
+        }
+      ],
+      "duration": 1.64,
+      "note": "far layer"
+    },
+    "sfx_fire_tanto": {
+      "ref": "S-07",
+      "category": "weapon_fire",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_fire_tanto.ogg",
+      "variants": [
+        "sfx_fire_tanto.ogg",
+        "sfx_fire_tanto_2.ogg",
+        "sfx_fire_tanto_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_fire_tanto.ogg",
+          "duration": 0.35,
+          "gain_db": -7.9,
+          "lufs_integrated": -23.9,
+          "lufs_momentary_max": -22.5,
+          "true_peak_db": -7.5
+        },
+        {
+          "file": "sfx_fire_tanto_2.ogg",
+          "duration": 0.44,
+          "gain_db": -10.1,
+          "lufs_integrated": -22.9,
+          "lufs_momentary_max": -22.4,
+          "true_peak_db": -6.3
+        },
+        {
+          "file": "sfx_fire_tanto_3.ogg",
+          "duration": 0.24,
+          "gain_db": 7.7,
+          "lufs_integrated": -28.9,
+          "lufs_momentary_max": -26.7,
+          "true_peak_db": -2.3
+        }
+      ],
+      "duration": 0.34,
+      "note": "Knife swing (no gunshot); whoosh/slice"
+    },
+    "sfx_casing_small": {
+      "ref": "S-08",
+      "category": "casing",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_casing_small.ogg",
+      "variants": [
+        "sfx_casing_small.ogg",
+        "sfx_casing_small_2.ogg",
+        "sfx_casing_small_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_casing_small.ogg",
+          "duration": 0.22,
+          "gain_db": -14.7,
+          "lufs_integrated": -32.2,
+          "lufs_momentary_max": -32.2,
+          "true_peak_db": -13.1
+        },
+        {
+          "file": "sfx_casing_small_2.ogg",
+          "duration": 0.16,
+          "gain_db": -13.9,
+          "lufs_integrated": -32.2,
+          "lufs_momentary_max": -32.2,
+          "true_peak_db": -12.3
+        },
+        {
+          "file": "sfx_casing_small_3.ogg",
+          "duration": 0.15,
+          "gain_db": -13.1,
+          "lufs_integrated": -32.1,
+          "lufs_momentary_max": -32.1,
+          "true_peak_db": -11.8
+        }
+      ],
+      "duration": 0.18,
+      "note": "approximation: small metal tink (pitched up)"
+    },
+    "sfx_casing_large": {
+      "ref": "S-08",
+      "category": "casing",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_casing_large.ogg",
+      "variants": [
+        "sfx_casing_large.ogg",
+        "sfx_casing_large_2.ogg",
+        "sfx_casing_large_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_casing_large.ogg",
+          "duration": 0.16,
+          "gain_db": -8.4,
+          "lufs_integrated": -32.2,
+          "lufs_momentary_max": -32.2,
+          "true_peak_db": -6.5
+        },
+        {
+          "file": "sfx_casing_large_2.ogg",
+          "duration": 0.17,
+          "gain_db": -7.7,
+          "lufs_integrated": -32.6,
+          "lufs_momentary_max": -32.6,
+          "true_peak_db": -6.5
+        },
+        {
+          "file": "sfx_casing_large_3.ogg",
+          "duration": 0.13,
+          "gain_db": -7.9,
+          "lufs_integrated": -32.9,
+          "lufs_momentary_max": -32.9,
+          "true_peak_db": -6.1
+        }
+      ],
+      "duration": 0.15,
+      "note": "approximation: tin impact"
+    },
+    "sfx_casing_shell": {
+      "ref": "S-08",
+      "category": "casing",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_casing_shell.ogg",
+      "variants": [
+        "sfx_casing_shell.ogg",
+        "sfx_casing_shell_2.ogg",
+        "sfx_casing_shell_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_casing_shell.ogg",
+          "duration": 0.14,
+          "gain_db": -9.0,
+          "lufs_integrated": -32.0,
+          "lufs_momentary_max": -32.0,
+          "true_peak_db": -7.2
+        },
+        {
+          "file": "sfx_casing_shell_2.ogg",
+          "duration": 0.11,
+          "gain_db": -8.0,
+          "lufs_integrated": -32.6,
+          "lufs_momentary_max": -32.6,
+          "true_peak_db": -6.1
+        },
+        {
+          "file": "sfx_casing_shell_3.ogg",
+          "duration": 0.12,
+          "gain_db": -10.0,
+          "lufs_integrated": -32.1,
+          "lufs_momentary_max": -32.1,
+          "true_peak_db": -8.3
+        }
+      ],
+      "duration": 0.12,
+      "note": "approximation: light generic/wood thud"
+    },
+    "sfx_dry_fire": {
+      "ref": "S-09",
+      "category": "weapon",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_dry_fire.ogg",
+      "variants": [
+        "sfx_dry_fire.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_dry_fire.ogg",
+          "duration": 0.34,
+          "gain_db": -3.2,
+          "lufs_integrated": -33.3,
+          "lufs_momentary_max": -32.5,
+          "true_peak_db": -9.5
+        }
+      ],
+      "duration": 0.34,
+      "note": "empty-mag click"
+    },
+    "sfx_reload_small_out": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_small_out.ogg",
+      "variants": [
+        "sfx_reload_small_out.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_small_out.ogg",
+          "duration": 0.11,
+          "gain_db": 3.1,
+          "lufs_integrated": -26.9,
+          "lufs_momentary_max": -26.9,
+          "true_peak_db": -3.5
+        }
+      ],
+      "duration": 0.11,
+      "note": "pistol class: mag out (segment of one combined file, split by silence detection)"
+    },
+    "sfx_reload_small_in": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_small_in.ogg",
+      "variants": [
+        "sfx_reload_small_in.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_small_in.ogg",
+          "duration": 0.5,
+          "gain_db": -8.3,
+          "lufs_integrated": -29.5,
+          "lufs_momentary_max": -26.5,
+          "true_peak_db": -5.2
+        }
+      ],
+      "duration": 0.5,
+      "note": "pistol class: mag in"
+    },
+    "sfx_reload_small_rack": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_small_rack.ogg",
+      "variants": [
+        "sfx_reload_small_rack.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_small_rack.ogg",
+          "duration": 0.34,
+          "gain_db": -19.4,
+          "lufs_integrated": -28.8,
+          "lufs_momentary_max": -26.4,
+          "true_peak_db": -11.1
+        }
+      ],
+      "duration": 0.34,
+      "note": "pistol class: slide rack"
+    },
+    "sfx_reload_large_out": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_large_out.ogg",
+      "variants": [
+        "sfx_reload_large_out.ogg",
+        "sfx_reload_large_out_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_large_out.ogg",
+          "duration": 0.36,
+          "gain_db": 2.3,
+          "lufs_integrated": -26.7,
+          "lufs_momentary_max": -26.6,
+          "true_peak_db": -4.6
+        },
+        {
+          "file": "sfx_reload_large_out_2.ogg",
+          "duration": 0.26,
+          "gain_db": -1.8,
+          "lufs_integrated": -27.4,
+          "lufs_momentary_max": -26.7,
+          "true_peak_db": -4.8
+        }
+      ],
+      "duration": 0.31,
+      "note": "rifle class: mag out"
+    },
+    "sfx_reload_large_in": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_large_in.ogg",
+      "variants": [
+        "sfx_reload_large_in.ogg",
+        "sfx_reload_large_in_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_large_in.ogg",
+          "duration": 0.6,
+          "gain_db": -4.7,
+          "lufs_integrated": -27.3,
+          "lufs_momentary_max": -27.3,
+          "true_peak_db": -3.7
+        },
+        {
+          "file": "sfx_reload_large_in_2.ogg",
+          "duration": 0.4,
+          "gain_db": 8.7,
+          "lufs_integrated": -28.6,
+          "lufs_momentary_max": -26.5,
+          "true_peak_db": -6.5
+        }
+      ],
+      "duration": 0.5,
+      "note": "rifle class: mag in"
+    },
+    "sfx_reload_large_charge": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_large_charge.ogg",
+      "variants": [
+        "sfx_reload_large_charge.ogg",
+        "sfx_reload_large_charge_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_large_charge.ogg",
+          "duration": 0.47,
+          "gain_db": -12.9,
+          "lufs_integrated": -27.1,
+          "lufs_momentary_max": -26.5,
+          "true_peak_db": -8.2
+        },
+        {
+          "file": "sfx_reload_large_charge_2.ogg",
+          "duration": 0.56,
+          "gain_db": -18.1,
+          "lufs_integrated": -26.8,
+          "lufs_momentary_max": -26.5,
+          "true_peak_db": -11.1
+        }
+      ],
+      "duration": 0.52,
+      "note": "rifle class: charging handle"
+    },
+    "sfx_reload_shell_first": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_shell_first.ogg",
+      "variants": [
+        "sfx_reload_shell_first.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_shell_first.ogg",
+          "duration": 0.88,
+          "gain_db": -11.2,
+          "lufs_integrated": -28.3,
+          "lufs_momentary_max": -26.6,
+          "true_peak_db": -7.3
+        }
+      ],
+      "duration": 0.88,
+      "note": "shotgun: first shell load"
+    },
+    "sfx_reload_shell_insert": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_shell_insert.ogg",
+      "variants": [
+        "sfx_reload_shell_insert.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_shell_insert.ogg",
+          "duration": 1.0,
+          "gain_db": -10.8,
+          "lufs_integrated": -28.2,
+          "lufs_momentary_max": -26.4,
+          "true_peak_db": -9.1
+        }
+      ],
+      "duration": 1.0,
+      "note": "shotgun: per-shell load"
+    },
+    "sfx_reload_shell_pump": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_shell_pump.ogg",
+      "variants": [
+        "sfx_reload_shell_pump.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_shell_pump.ogg",
+          "duration": 1.09,
+          "gain_db": -22.5,
+          "lufs_integrated": -28.3,
+          "lufs_momentary_max": -26.4,
+          "true_peak_db": -15.7
+        }
+      ],
+      "duration": 1.09,
+      "note": "shotgun: pump"
+    },
+    "sfx_reload_bolt": {
+      "ref": "S-10",
+      "category": "reload",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_reload_bolt.ogg",
+      "variants": [
+        "sfx_reload_bolt.ogg",
+        "sfx_reload_bolt_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_reload_bolt.ogg",
+          "duration": 0.42,
+          "gain_db": -19.9,
+          "lufs_integrated": -28.0,
+          "lufs_momentary_max": -26.4,
+          "true_peak_db": -12.1
+        },
+        {
+          "file": "sfx_reload_bolt_2.ogg",
+          "duration": 0.19,
+          "gain_db": -8.8,
+          "lufs_integrated": -26.5,
+          "lufs_momentary_max": -26.5,
+          "true_peak_db": -5.4
+        }
+      ],
+      "duration": 0.3,
+      "note": "bolt/action cycle (sniper)"
+    },
+    "sfx_ads_in": {
+      "ref": "S-11",
+      "category": "weapon",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ads_in.ogg",
+      "variants": [
+        "sfx_ads_in.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ads_in.ogg",
+          "duration": 0.16,
+          "gain_db": 3.9,
+          "lufs_integrated": -34.7,
+          "lufs_momentary_max": -32.1,
+          "true_peak_db": -8.2
+        }
+      ],
+      "duration": 0.16,
+      "note": "gear handling"
+    },
+    "sfx_ads_out": {
+      "ref": "S-11",
+      "category": "weapon",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ads_out.ogg",
+      "variants": [
+        "sfx_ads_out.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ads_out.ogg",
+          "duration": 0.14,
+          "gain_db": 5.3,
+          "lufs_integrated": -34.7,
+          "lufs_momentary_max": -32.4,
+          "true_peak_db": -9.8
+        }
+      ],
+      "duration": 0.14,
+      "note": "gear handling"
+    },
+    "sfx_weapon_switch": {
+      "ref": "S-11",
+      "category": "weapon",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_weapon_switch.ogg",
+      "variants": [
+        "sfx_weapon_switch.ogg",
+        "sfx_weapon_switch_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_weapon_switch.ogg",
+          "duration": 0.19,
+          "gain_db": -14.8,
+          "lufs_integrated": -32.4,
+          "lufs_momentary_max": -32.4,
+          "true_peak_db": -11.0
+        },
+        {
+          "file": "sfx_weapon_switch_2.ogg",
+          "duration": 0.64,
+          "gain_db": -8.3,
+          "lufs_integrated": -33.8,
+          "lufs_momentary_max": -32.4,
+          "true_peak_db": -10.5
+        }
+      ],
+      "duration": 0.42,
+      "note": "latch + cloth"
+    },
+    "sfx_footstep_concrete": {
+      "ref": "S-12",
+      "category": "footstep",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_footstep_concrete.ogg",
+      "variants": [
+        "sfx_footstep_concrete.ogg",
+        "sfx_footstep_concrete_2.ogg",
+        "sfx_footstep_concrete_3.ogg",
+        "sfx_footstep_concrete_4.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_footstep_concrete.ogg",
+          "duration": 0.1,
+          "gain_db": -4.1,
+          "lufs_integrated": -29.6,
+          "lufs_momentary_max": -29.6,
+          "true_peak_db": -2.0
+        },
+        {
+          "file": "sfx_footstep_concrete_2.ogg",
+          "duration": 0.1,
+          "gain_db": -3.9,
+          "lufs_integrated": -31.0,
+          "lufs_momentary_max": -31.0,
+          "true_peak_db": -2.1
+        },
+        {
+          "file": "sfx_footstep_concrete_3.ogg",
+          "duration": 0.11,
+          "gain_db": -4.0,
+          "lufs_integrated": -31.0,
+          "lufs_momentary_max": -31.0,
+          "true_peak_db": -2.0
+        },
+        {
+          "file": "sfx_footstep_concrete_4.ogg",
+          "duration": 0.11,
+          "gain_db": -3.9,
+          "lufs_integrated": -30.1,
+          "lufs_momentary_max": -30.1,
+          "true_peak_db": -2.0
+        }
+      ],
+      "duration": 0.1
+    },
+    "sfx_footstep_metal": {
+      "ref": "S-12",
+      "category": "footstep",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_footstep_metal.ogg",
+      "variants": [
+        "sfx_footstep_metal.ogg",
+        "sfx_footstep_metal_2.ogg",
+        "sfx_footstep_metal_3.ogg",
+        "sfx_footstep_metal_4.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_footstep_metal.ogg",
+          "duration": 0.08,
+          "gain_db": -3.3,
+          "lufs_integrated": -29.3,
+          "lufs_momentary_max": -29.3,
+          "true_peak_db": -2.2
+        },
+        {
+          "file": "sfx_footstep_metal_2.ogg",
+          "duration": 0.11,
+          "gain_db": -0.7,
+          "lufs_integrated": -29.8,
+          "lufs_momentary_max": -29.8,
+          "true_peak_db": -2.2
+        },
+        {
+          "file": "sfx_footstep_metal_3.ogg",
+          "duration": 0.11,
+          "gain_db": 0.7,
+          "lufs_integrated": -28.5,
+          "lufs_momentary_max": -28.5,
+          "true_peak_db": -2.6
+        },
+        {
+          "file": "sfx_footstep_metal_4.ogg",
+          "duration": 0.11,
+          "gain_db": -1.6,
+          "lufs_integrated": -30.4,
+          "lufs_momentary_max": -30.4,
+          "true_peak_db": -2.2
+        }
+      ],
+      "duration": 0.1,
+      "note": "metal foot on concrete"
+    },
+    "sfx_jump": {
+      "ref": "S-13",
+      "category": "movement",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_jump.ogg",
+      "variants": [
+        "sfx_jump.ogg",
+        "sfx_jump_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_jump.ogg",
+          "duration": 0.3,
+          "gain_db": -0.9,
+          "lufs_integrated": -31.3,
+          "lufs_momentary_max": -28.3,
+          "true_peak_db": -9.2
+        },
+        {
+          "file": "sfx_jump_2.ogg",
+          "duration": 0.46,
+          "gain_db": 0.9,
+          "lufs_integrated": -31.7,
+          "lufs_momentary_max": -28.2,
+          "true_peak_db": -8.5
+        }
+      ],
+      "duration": 0.38,
+      "note": "cloth rustle (approximation)"
+    },
+    "sfx_land": {
+      "ref": "S-13",
+      "category": "movement",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_land.ogg",
+      "variants": [
+        "sfx_land.ogg",
+        "sfx_land_2.ogg",
+        "sfx_land_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_land.ogg",
+          "duration": 0.51,
+          "gain_db": -12.2,
+          "lufs_integrated": -30.8,
+          "lufs_momentary_max": -27.9,
+          "true_peak_db": -10.0
+        },
+        {
+          "file": "sfx_land_2.ogg",
+          "duration": 0.57,
+          "gain_db": -12.3,
+          "lufs_integrated": -30.6,
+          "lufs_momentary_max": -27.9,
+          "true_peak_db": -10.1
+        },
+        {
+          "file": "sfx_land_3.ogg",
+          "duration": 0.57,
+          "gain_db": -12.6,
+          "lufs_integrated": -30.7,
+          "lufs_momentary_max": -27.9,
+          "true_peak_db": -10.4
+        }
+      ],
+      "duration": 0.55,
+      "note": "soft heavy thud"
+    },
+    "sfx_slide": {
+      "ref": "S-13",
+      "category": "movement",
+      "loop": false,
+      "status": "missing",
+      "file": null,
+      "variants": [],
+      "variant_info": [],
+      "duration": null,
+      "note": "missing: no CC0 slide/scrape found; synth fallback"
+    },
+    "sfx_hitmarker": {
+      "ref": "S-14",
+      "category": "feedback",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_hitmarker.ogg",
+      "variants": [
+        "sfx_hitmarker.ogg",
+        "sfx_hitmarker_2.ogg",
+        "sfx_hitmarker_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_hitmarker.ogg",
+          "duration": 0.06,
+          "gain_db": 0.8,
+          "lufs_integrated": -28.5,
+          "lufs_momentary_max": -28.5,
+          "true_peak_db": -10.7
+        },
+        {
+          "file": "sfx_hitmarker_2.ogg",
+          "duration": 0.02,
+          "gain_db": 0.1,
+          "lufs_integrated": -32.3,
+          "lufs_momentary_max": -32.3,
+          "true_peak_db": -8.9
+        },
+        {
+          "file": "sfx_hitmarker_3.ogg",
+          "duration": 0.12,
+          "gain_db": -10.4,
+          "lufs_integrated": -28.0,
+          "lufs_momentary_max": -28.0,
+          "true_peak_db": -11.6
+        }
+      ],
+      "duration": 0.07,
+      "note": "tick"
+    },
+    "sfx_headshot_tick": {
+      "ref": "S-14",
+      "category": "feedback",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_headshot_tick.ogg",
+      "variants": [
+        "sfx_headshot_tick.ogg",
+        "sfx_headshot_tick_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_headshot_tick.ogg",
+          "duration": 0.25,
+          "gain_db": -8.5,
+          "lufs_integrated": -28.0,
+          "lufs_momentary_max": -28.0,
+          "true_peak_db": -12.3
+        },
+        {
+          "file": "sfx_headshot_tick_2.ogg",
+          "duration": 0.11,
+          "gain_db": -6.2,
+          "lufs_integrated": -28.4,
+          "lufs_momentary_max": -28.4,
+          "true_peak_db": -10.3
+        }
+      ],
+      "duration": 0.18,
+      "note": "glass ding"
+    },
+    "sfx_kill_sting": {
+      "ref": "S-14",
+      "category": "feedback",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_kill_sting.ogg",
+      "variants": [
+        "sfx_kill_sting.ogg",
+        "sfx_kill_sting_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_kill_sting.ogg",
+          "duration": 0.36,
+          "gain_db": -18.0,
+          "lufs_integrated": -30.7,
+          "lufs_momentary_max": -28.0,
+          "true_peak_db": -21.9
+        },
+        {
+          "file": "sfx_kill_sting_2.ogg",
+          "duration": 0.28,
+          "gain_db": -16.4,
+          "lufs_integrated": -30.6,
+          "lufs_momentary_max": -28.0,
+          "true_peak_db": -19.8
+        }
+      ],
+      "duration": 0.32,
+      "note": "arcade sting"
+    },
+    "sfx_streak_sting": {
+      "ref": "S-14",
+      "category": "feedback",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_streak_sting.ogg",
+      "variants": [
+        "sfx_streak_sting.ogg",
+        "sfx_streak_sting_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_streak_sting.ogg",
+          "duration": 0.57,
+          "gain_db": -16.5,
+          "lufs_integrated": -29.8,
+          "lufs_momentary_max": -28.0,
+          "true_peak_db": -20.6
+        },
+        {
+          "file": "sfx_streak_sting_2.ogg",
+          "duration": 1.09,
+          "gain_db": -21.2,
+          "lufs_integrated": -32.2,
+          "lufs_momentary_max": -27.9,
+          "true_peak_db": -24.2
+        }
+      ],
+      "duration": 0.83,
+      "note": "arcade 3-tone sting"
+    },
+    "sfx_pain": {
+      "ref": "S-15",
+      "category": "player",
+      "loop": false,
+      "status": "missing",
+      "file": null,
+      "variants": [],
+      "variant_info": [],
+      "duration": null,
+      "note": "missing: only candidate (OGA \"grunts of male death and pain\") has a GPL claim in its comments, rejected; synth fallback"
+    },
+    "sfx_death": {
+      "ref": "S-15",
+      "category": "player",
+      "loop": false,
+      "status": "missing",
+      "file": null,
+      "variants": [],
+      "variant_info": [],
+      "duration": null,
+      "note": "missing: only candidate (OGA \"grunts of male death and pain\") has a GPL claim in its comments, rejected; synth fallback"
+    },
+    "sfx_heartbeat_low": {
+      "ref": "S-15",
+      "category": "player",
+      "loop": true,
+      "status": "found",
+      "file": "sfx_heartbeat_low.ogg",
+      "variants": [
+        "sfx_heartbeat_low.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_heartbeat_low.ogg",
+          "duration": 1.8,
+          "gain_db": 7.3,
+          "lufs_integrated": -21.9,
+          "lufs_momentary_max": -20.3,
+          "true_peak_db": -6.3
+        }
+      ],
+      "duration": 1.8,
+      "note": "loop (low-health heartbeat)"
+    },
+    "sfx_ui_hover": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ui_hover.ogg",
+      "variants": [
+        "sfx_ui_hover.ogg",
+        "sfx_ui_hover_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ui_hover.ogg",
+          "duration": 0.05,
+          "gain_db": -5.3,
+          "lufs_integrated": -34.7,
+          "lufs_momentary_max": -34.7,
+          "true_peak_db": -7.6
+        },
+        {
+          "file": "sfx_ui_hover_2.ogg",
+          "duration": 0.07,
+          "gain_db": -14.2,
+          "lufs_integrated": -34.4,
+          "lufs_momentary_max": -34.4,
+          "true_peak_db": -16.6
+        }
+      ],
+      "duration": 0.06
+    },
+    "sfx_ui_click": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ui_click.ogg",
+      "variants": [
+        "sfx_ui_click.ogg",
+        "sfx_ui_click_2.ogg",
+        "sfx_ui_click_3.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ui_click.ogg",
+          "duration": 0.08,
+          "gain_db": -6.7,
+          "lufs_integrated": -34.2,
+          "lufs_momentary_max": -34.2,
+          "true_peak_db": -8.5
+        },
+        {
+          "file": "sfx_ui_click_2.ogg",
+          "duration": 0.05,
+          "gain_db": -9.7,
+          "lufs_integrated": -34.1,
+          "lufs_momentary_max": -34.1,
+          "true_peak_db": -11.1
+        },
+        {
+          "file": "sfx_ui_click_3.ogg",
+          "duration": 0.06,
+          "gain_db": -6.3,
+          "lufs_integrated": -35.7,
+          "lufs_momentary_max": -35.7,
+          "true_peak_db": -7.2
+        }
+      ],
+      "duration": 0.06
+    },
+    "sfx_ui_back": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ui_back.ogg",
+      "variants": [
+        "sfx_ui_back.ogg",
+        "sfx_ui_back_2.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ui_back.ogg",
+          "duration": 0.06,
+          "gain_db": -4.7,
+          "lufs_integrated": -34.3,
+          "lufs_momentary_max": -34.3,
+          "true_peak_db": -8.9
+        },
+        {
+          "file": "sfx_ui_back_2.ogg",
+          "duration": 0.07,
+          "gain_db": -9.2,
+          "lufs_integrated": -34.1,
+          "lufs_momentary_max": -34.1,
+          "true_peak_db": -13.2
+        }
+      ],
+      "duration": 0.07
+    },
+    "sfx_ui_countdown": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ui_countdown.ogg",
+      "variants": [
+        "sfx_ui_countdown.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ui_countdown.ogg",
+          "duration": 0.12,
+          "gain_db": -11.4,
+          "lufs_integrated": -34.0,
+          "lufs_momentary_max": -34.0,
+          "true_peak_db": -15.3
+        }
+      ],
+      "duration": 0.12,
+      "note": "countdown tick"
+    },
+    "sfx_ui_countdown_go": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_ui_countdown_go.ogg",
+      "variants": [
+        "sfx_ui_countdown_go.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ui_countdown_go.ogg",
+          "duration": 0.96,
+          "gain_db": -23.4,
+          "lufs_integrated": -36.3,
+          "lufs_momentary_max": -34.0,
+          "true_peak_db": -27.1
+        }
+      ],
+      "duration": 0.96,
+      "note": "countdown go"
+    },
+    "sfx_match_start": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_match_start.ogg",
+      "variants": [
+        "sfx_match_start.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_match_start.ogg",
+          "duration": 0.37,
+          "gain_db": -3.5,
+          "lufs_integrated": -18.5,
+          "lufs_momentary_max": -16.0,
+          "true_peak_db": -7.5
+        }
+      ],
+      "duration": 0.37,
+      "note": "stinger, NOT a literal horn (no CC0 horn found)"
+    },
+    "sfx_match_end": {
+      "ref": "S-16",
+      "category": "ui",
+      "loop": false,
+      "status": "found",
+      "file": "sfx_match_end.ogg",
+      "variants": [
+        "sfx_match_end.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_match_end.ogg",
+          "duration": 0.87,
+          "gain_db": -4.7,
+          "lufs_integrated": -18.0,
+          "lufs_momentary_max": -16.0,
+          "true_peak_db": -8.4
+        }
+      ],
+      "duration": 0.87,
+      "note": "stinger, NOT a literal horn (no CC0 horn found)"
+    },
+    "sfx_ambient_yard": {
+      "ref": "S-17",
+      "category": "ambient",
+      "loop": true,
+      "status": "found",
+      "file": "sfx_ambient_yard.ogg",
+      "variants": [
+        "sfx_ambient_yard.ogg"
+      ],
+      "variant_info": [
+        {
+          "file": "sfx_ambient_yard.ogg",
+          "duration": 5.96,
+          "gain_db": -0.3,
+          "lufs_integrated": -26.1,
+          "lufs_momentary_max": -25.3,
+          "true_peak_db": -15.8
+        }
+      ],
+      "duration": 5.96,
+      "note": "loop; wind (CC0 loop) + synthesized 100 Hz transformer hum (aevalsrc, no source file)"
+    },
+    "sfx_music_menu": {
+      "ref": "S-18",
+      "category": "music",
+      "loop": true,
+      "status": "missing",
+      "file": null,
+      "variants": [],
+      "variant_info": [],
+      "duration": null,
+      "note": "missing: P3, no CC0 loop sourced"
+    }
+  }
+}

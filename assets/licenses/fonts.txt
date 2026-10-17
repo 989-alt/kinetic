@@ -1,0 +1,5 @@
+# Fonts (SIL Open Font License 1.1, latin subset woff2)
+
+Source: Google Fonts files (fonts.gstatic.com), fetched via the google-webfonts-helper API.
+- Rajdhani 500/600/700: (c) 2014 Indian Type Foundry. See OFL-Rajdhani.txt.
+- Inter 400/500/600/700: (c) 2020 The Inter Project Authors. See OFL-Inter.txt.

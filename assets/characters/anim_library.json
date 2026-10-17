@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "skeleton": "char_rook.glb",
+  "fps": 30,
+  "tracks": "rotation for all 24 bones + hips translation only (no scale)",
+  "rootMotion": "removed (hips pinned horizontally; vertical bob kept)",
+  "units": "metres, char_rook scale (1.80 m)",
+  "clips": {
+    "idle": {
+      "loop": true,
+      "duration": 4.0,
+      "frames": 121,
+      "fps": 30,
+      "locomotion": false,
+      "clipSpeedMps": 0.0,
+      "speedMethod": "stance_foot",
+      "measuredHipsSpeedMps": 0.0,
+      "measuredStanceFootSpeedMps": -0.0,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 0.0,
+        "forwardM": -0.0,
+        "lateralM": -0.0,
+        "slopeSpeedMps": 0.0
+      },
+      "source": "an01_idle.glb"
+    },
+    "walk": {
+      "loop": true,
+      "duration": 4.1667,
+      "frames": 126,
+      "fps": 30,
+      "locomotion": true,
+      "clipSpeedMps": 0.6415,
+      "speedMethod": "stance_foot",
+      "measuredHipsSpeedMps": 0.0007,
+      "measuredStanceFootSpeedMps": 0.6415,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 0.003,
+        "forwardM": -0.001,
+        "lateralM": 0.0028,
+        "slopeSpeedMps": -0.0008
+      },
+      "source": "an02_walk.glb"
+    },
+    "run": {
+      "loop": true,
+      "duration": 0.4667,
+      "frames": 15,
+      "fps": 30,
+      "locomotion": true,
+      "clipSpeedMps": 6.2493,
+      "speedMethod": "stance_foot",
+      "measuredHipsSpeedMps": 0.0013,
+      "measuredStanceFootSpeedMps": 6.2493,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 0.0006,
+        "forwardM": 0.0005,
+        "lateralM": -0.0004,
+        "slopeSpeedMps": 0.0111
+      },
+      "source": "an03_run.glb"
+    },
+    "run_shoot": {
+      "loop": true,
+      "duration": 0.6667,
+      "frames": 21,
+      "fps": 30,
+      "locomotion": true,
+      "clipSpeedMps": 1.8692,
+      "speedMethod": "hips",
+      "measuredHipsSpeedMps": 1.8692,
+      "measuredStanceFootSpeedMps": 0.0862,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 1.2461,
+        "forwardM": 1.2461,
+        "lateralM": -0.0,
+        "slopeSpeedMps": 1.8624
+      },
+      "source": "an04_runshoot.glb"
+    },
+    "jump": {
+      "loop": false,
+      "duration": 1.8667,
+      "frames": 57,
+      "fps": 30,
+      "locomotion": false,
+      "clipSpeedMps": 0.0,
+      "speedMethod": "stance_foot",
+      "measuredHipsSpeedMps": 0.0006,
+      "measuredStanceFootSpeedMps": 0.002,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 0.0012,
+        "forwardM": 0.0006,
+        "lateralM": -0.001,
+        "slopeSpeedMps": 0.0235
+      },
+      "source": "an05_jump.glb"
+    },
+    "hit": {
+      "loop": false,
+      "duration": 3.0,
+      "frames": 91,
+      "fps": 30,
+      "locomotion": false,
+      "clipSpeedMps": 0.0,
+      "speedMethod": "stance_foot",
+      "measuredHipsSpeedMps": 0.0304,
+      "measuredStanceFootSpeedMps": 0.0044,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 0.0911,
+        "forwardM": -0.0896,
+        "lateralM": 0.0167,
+        "slopeSpeedMps": -0.0314
+      },
+      "source": "an06_hit.glb"
+    },
+    "death": {
+      "loop": false,
+      "duration": 2.1667,
+      "frames": 66,
+      "fps": 30,
+      "locomotion": false,
+      "clipSpeedMps": 0.0,
+      "speedMethod": "hips",
+      "measuredHipsSpeedMps": 0.4328,
+      "measuredStanceFootSpeedMps": 0.0513,
+      "rootMotionRemoved": {
+        "horizontalDisplacementM": 0.9378,
+        "forwardM": 0.9341,
+        "lateralM": -0.0835,
+        "slopeSpeedMps": 0.5696
+      },
+      "source": "an07_death.glb"
+    }
+  },
+  "clipSpeedMps": {
+    "idle": 0.0,
+    "walk": 0.6415,
+    "run": 6.2493,
+    "run_shoot": 1.8692,
+    "jump": 0.0,
+    "hit": 0.0,
+    "death": 0.0
+  },
+  "loop": {
+    "idle": true,
+    "walk": true,
+    "run": true,
+    "run_shoot": true,
+    "jump": false,
+    "hit": false,
+    "death": false
+  },
+  "duration": {
+    "idle": 4.0,
+    "walk": 4.1667,
+    "run": 0.4667,
+    "run_shoot": 0.6667,
+    "jump": 1.8667,
+    "hit": 3.0,
+    "death": 2.1667
+  },
+  "bones": [
+    "ball_l",
+    "ball_r",
+    "calf_l",
+    "calf_r",
+    "clavicle_l",
+    "clavicle_r",
+    "foot_l",
+    "foot_r",
+    "forearm_l",
+    "forearm_r",
+    "hand_l",
+    "hand_r",
+    "head",
+    "head_end",
+    "head_front",
+    "hips",
+    "neck",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "thigh_l",
+    "thigh_r",
+    "upperarm_l",
+    "upperarm_r"
+  ]
+}

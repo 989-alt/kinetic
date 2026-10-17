@@ -1,0 +1,2026 @@
+{
+ "version": 1,
+ "totalBytes": 40320400,
+ "entries": [
+  {
+   "id": "arms_fp",
+   "url": "arms/arms_fp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "arms",
+   "bytes": 1952340
+  },
+  {
+   "id": "anim_library",
+   "url": "characters/anim_library.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "characters",
+   "bytes": 246580
+  },
+  {
+   "id": "anim_library_json",
+   "url": "characters/anim_library.json",
+   "type": "json",
+   "load": "match",
+   "group": "characters",
+   "bytes": 4445
+  },
+  {
+   "id": "char_dune",
+   "url": "characters/char_dune.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "characters",
+   "bytes": 2356444
+  },
+  {
+   "id": "char_rook",
+   "url": "characters/char_rook.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "characters",
+   "bytes": 2423512
+  },
+  {
+   "id": "char_volt",
+   "url": "characters/char_volt.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "characters",
+   "bytes": 2421856
+  },
+  {
+   "id": "night_512",
+   "url": "env/night_512.hdr",
+   "type": "hdr",
+   "load": "boot",
+   "group": "env",
+   "bytes": 160509
+  },
+  {
+   "id": "font_Inter-400",
+   "url": "fonts/Inter-400.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 23664
+  },
+  {
+   "id": "font_Inter-500",
+   "url": "fonts/Inter-500.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 24272
+  },
+  {
+   "id": "font_Inter-600",
+   "url": "fonts/Inter-600.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 24452
+  },
+  {
+   "id": "font_Inter-700",
+   "url": "fonts/Inter-700.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 24356
+  },
+  {
+   "id": "font_OFL-Inter",
+   "url": "fonts/OFL-Inter.txt",
+   "type": "txt",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 4377
+  },
+  {
+   "id": "font_OFL-Rajdhani",
+   "url": "fonts/OFL-Rajdhani.txt",
+   "type": "txt",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 4373
+  },
+  {
+   "id": "font_Rajdhani-500",
+   "url": "fonts/Rajdhani-500.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 15084
+  },
+  {
+   "id": "font_Rajdhani-600",
+   "url": "fonts/Rajdhani-600.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 15732
+  },
+  {
+   "id": "font_Rajdhani-700",
+   "url": "fonts/Rajdhani-700.woff2",
+   "type": "font",
+   "load": "onDemand",
+   "group": "fonts",
+   "bytes": 15688
+  },
+  {
+   "id": "deco_ceiling_beam_4",
+   "url": "kit/deco_ceiling_beam_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 14324
+  },
+  {
+   "id": "deco_downlight",
+   "url": "kit/deco_downlight.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 14004
+  },
+  {
+   "id": "deco_holo_koi_ring",
+   "url": "kit/deco_holo_koi_ring.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 125484
+  },
+  {
+   "id": "deco_holo_koi_small",
+   "url": "kit/deco_holo_koi_small.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 91880
+  },
+  {
+   "id": "deco_hoverbike",
+   "url": "kit/deco_hoverbike.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 573288
+  },
+  {
+   "id": "deco_hvac",
+   "url": "kit/deco_hvac.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 99740,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo"
+   ]
+  },
+  {
+   "id": "deco_kitchen_pass",
+   "url": "kit/deco_kitchen_pass.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 82536,
+   "deps": [
+    "nm_poster_decals"
+   ]
+  },
+  {
+   "id": "deco_lantern_pendant",
+   "url": "kit/deco_lantern_pendant.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 23728,
+   "deps": [
+    "nm_lantern_paper_albedo"
+   ]
+  },
+  {
+   "id": "deco_lantern_string_4",
+   "url": "kit/deco_lantern_string_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 120584,
+   "deps": [
+    "nm_lantern_paper_albedo"
+   ]
+  },
+  {
+   "id": "deco_menu_board",
+   "url": "kit/deco_menu_board.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 22584,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_poster_decals"
+   ]
+  },
+  {
+   "id": "deco_noodle_banner",
+   "url": "kit/deco_noodle_banner.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 20976,
+   "deps": [
+    "nm_neon_decals"
+   ]
+  },
+  {
+   "id": "deco_plant_a",
+   "url": "kit/deco_plant_a.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 9864,
+   "deps": [
+    "nm_plants"
+   ]
+  },
+  {
+   "id": "deco_plant_b",
+   "url": "kit/deco_plant_b.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 9840,
+   "deps": [
+    "nm_plants"
+   ]
+  },
+  {
+   "id": "deco_sign_totem",
+   "url": "kit/deco_sign_totem.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 27052,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_neon_decals"
+   ]
+  },
+  {
+   "id": "deco_wall_shelf_2",
+   "url": "kit/deco_wall_shelf_2.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 107192
+  },
+  {
+   "id": "deco_water_canal",
+   "url": "kit/deco_water_canal.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 2800,
+   "deps": [
+    "nm_water_normal"
+   ]
+  },
+  {
+   "id": "env_horizon",
+   "url": "kit/env_horizon.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "env",
+   "bytes": 963356
+  },
+  {
+   "id": "kit_catwalk_4",
+   "url": "kit/kit_catwalk_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 31368,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_deck_normal",
+    "nm_deck_orm",
+    "nm_deck_albedo"
+   ]
+  },
+  {
+   "id": "kit_fence_4",
+   "url": "kit/kit_fence_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 21648,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo"
+   ]
+  },
+  {
+   "id": "kit_floor_4",
+   "url": "kit/kit_floor_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 6748,
+   "deps": [
+    "nm_paver_normal",
+    "nm_paver_orm",
+    "nm_paver_albedo"
+   ]
+  },
+  {
+   "id": "kit_floor_4_grate",
+   "url": "kit/kit_floor_4_grate.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 31272,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_deck_normal",
+    "nm_deck_orm",
+    "nm_deck_albedo"
+   ]
+  },
+  {
+   "id": "kit_pillar",
+   "url": "kit/kit_pillar.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 56616,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_railing_2",
+   "url": "kit/kit_railing_2.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 22708,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_glass_orm"
+   ]
+  },
+  {
+   "id": "kit_ramp",
+   "url": "kit/kit_ramp.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 11304,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo",
+    "nm_paver_normal",
+    "nm_paver_orm",
+    "nm_paver_albedo"
+   ]
+  },
+  {
+   "id": "kit_slab_4",
+   "url": "kit/kit_slab_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 15072,
+   "deps": [
+    "nm_paver_normal",
+    "nm_paver_orm",
+    "nm_paver_albedo",
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_stairs",
+   "url": "kit/kit_stairs.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 37964,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_tower_base",
+   "url": "kit/kit_tower_base.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 62628,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo",
+    "nm_paver_normal",
+    "nm_paver_orm",
+    "nm_paver_albedo"
+   ]
+  },
+  {
+   "id": "kit_wall_2",
+   "url": "kit/kit_wall_2.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 36976,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_wall_4",
+   "url": "kit/kit_wall_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 49300,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_wall_corner",
+   "url": "kit/kit_wall_corner.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 28876,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_wall_door",
+   "url": "kit/kit_wall_door.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 94728,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "kit_wall_window",
+   "url": "kit/kit_wall_window.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 76892,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo"
+   ]
+  },
+  {
+   "id": "prop_barrel",
+   "url": "kit/prop_barrel.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 496620
+  },
+  {
+   "id": "prop_cabinet",
+   "url": "kit/prop_cabinet.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 748268
+  },
+  {
+   "id": "prop_cable_tray",
+   "url": "kit/prop_cable_tray.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 62456,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo"
+   ]
+  },
+  {
+   "id": "prop_crate_1",
+   "url": "kit/prop_crate_1.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 712192
+  },
+  {
+   "id": "prop_crate_1_planter",
+   "url": "kit/prop_crate_1_planter.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 35564,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo",
+    "nm_plants"
+   ]
+  },
+  {
+   "id": "prop_equipment_case",
+   "url": "kit/prop_equipment_case.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 1896636
+  },
+  {
+   "id": "prop_lamp_pole",
+   "url": "kit/prop_lamp_pole.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 120800,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_lantern_paper_albedo"
+   ]
+  },
+  {
+   "id": "prop_light_tube",
+   "url": "kit/prop_light_tube.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 21536,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo"
+   ]
+  },
+  {
+   "id": "prop_light_tube_magenta",
+   "url": "kit/prop_light_tube_magenta.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 21564,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo"
+   ]
+  },
+  {
+   "id": "prop_pipe_4",
+   "url": "kit/prop_pipe_4.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 114120,
+   "deps": [
+    "tex_metal_painted_normal",
+    "tex_kitpaint_albedo",
+    "tex_metal_galv_normal",
+    "tex_metal_galv_albedo",
+    "tex_kithazard_albedo"
+   ]
+  },
+  {
+   "id": "prop_pipe_elbow",
+   "url": "kit/prop_pipe_elbow.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 95692,
+   "deps": [
+    "tex_kithazard_albedo",
+    "tex_metal_galv_normal",
+    "tex_metal_galv_albedo"
+   ]
+  },
+  {
+   "id": "prop_spool",
+   "url": "kit/prop_spool.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 87976,
+   "deps": [
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_lantern_paper_albedo"
+   ]
+  },
+  {
+   "id": "prop_transformer",
+   "url": "kit/prop_transformer.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 675452
+  },
+  {
+   "id": "prop_transformer_large",
+   "url": "kit/prop_transformer_large.glb",
+   "type": "glb",
+   "load": "kit",
+   "group": "kit",
+   "bytes": 108292,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo",
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo"
+   ]
+  },
+  {
+   "id": "nm_canal_albedo",
+   "url": "kit/tex/nm_canal_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 141226
+  },
+  {
+   "id": "nm_canal_normal",
+   "url": "kit/tex/nm_canal_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 593152
+  },
+  {
+   "id": "nm_canal_orm",
+   "url": "kit/tex/nm_canal_orm.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 186128
+  },
+  {
+   "id": "nm_deck_albedo",
+   "url": "kit/tex/nm_deck_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 80370
+  },
+  {
+   "id": "nm_deck_normal",
+   "url": "kit/tex/nm_deck_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 328008
+  },
+  {
+   "id": "nm_deck_orm",
+   "url": "kit/tex/nm_deck_orm.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 100404
+  },
+  {
+   "id": "nm_glass_orm",
+   "url": "kit/tex/nm_glass_orm.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 405626
+  },
+  {
+   "id": "nm_lantern_paper_albedo",
+   "url": "kit/tex/nm_lantern_paper_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 182790
+  },
+  {
+   "id": "nm_metal_dark_albedo",
+   "url": "kit/tex/nm_metal_dark_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 39526
+  },
+  {
+   "id": "nm_metal_dark_normal",
+   "url": "kit/tex/nm_metal_dark_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 299740
+  },
+  {
+   "id": "nm_metal_dark_orm",
+   "url": "kit/tex/nm_metal_dark_orm.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 57108
+  },
+  {
+   "id": "nm_neon_decals",
+   "url": "kit/tex/nm_neon_decals.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 417732
+  },
+  {
+   "id": "nm_paver_albedo",
+   "url": "kit/tex/nm_paver_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 159672
+  },
+  {
+   "id": "nm_paver_normal",
+   "url": "kit/tex/nm_paver_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 322378
+  },
+  {
+   "id": "nm_paver_orm",
+   "url": "kit/tex/nm_paver_orm.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 135406
+  },
+  {
+   "id": "nm_plants",
+   "url": "kit/tex/nm_plants.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 384228
+  },
+  {
+   "id": "nm_poster_decals",
+   "url": "kit/tex/nm_poster_decals.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 558402
+  },
+  {
+   "id": "nm_stone_albedo",
+   "url": "kit/tex/nm_stone_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 15966
+  },
+  {
+   "id": "nm_stone_normal",
+   "url": "kit/tex/nm_stone_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 248004
+  },
+  {
+   "id": "nm_stone_orm",
+   "url": "kit/tex/nm_stone_orm.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 16928
+  },
+  {
+   "id": "nm_water_normal",
+   "url": "kit/tex/nm_water_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 171094
+  },
+  {
+   "id": "tex_kithazard_albedo",
+   "url": "kit/tex/tex_kithazard_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 12778
+  },
+  {
+   "id": "tex_kitpaint_albedo",
+   "url": "kit/tex/tex_kitpaint_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 165638
+  },
+  {
+   "id": "tex_metal_galv_albedo",
+   "url": "kit/tex/tex_metal_galv_albedo.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 342060
+  },
+  {
+   "id": "tex_metal_galv_normal",
+   "url": "kit/tex/tex_metal_galv_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 686610
+  },
+  {
+   "id": "tex_metal_painted_normal",
+   "url": "kit/tex/tex_metal_painted_normal.webp",
+   "type": "webp",
+   "load": "onDemand",
+   "group": "kit",
+   "bytes": 261334
+  },
+  {
+   "id": "license_audio",
+   "url": "licenses/audio.txt",
+   "type": "txt",
+   "load": "onDemand",
+   "group": "licenses",
+   "bytes": 24054
+  },
+  {
+   "id": "license_env",
+   "url": "licenses/env.txt",
+   "type": "txt",
+   "load": "onDemand",
+   "group": "licenses",
+   "bytes": 1071
+  },
+  {
+   "id": "license_fonts",
+   "url": "licenses/fonts.txt",
+   "type": "txt",
+   "load": "onDemand",
+   "group": "licenses",
+   "bytes": 305
+  },
+  {
+   "id": "substation_bake",
+   "url": "map/substation_bake.json",
+   "type": "json",
+   "load": "match",
+   "group": "map",
+   "bytes": 8308
+  },
+  {
+   "id": "substation_baked",
+   "url": "map/substation_baked.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "map",
+   "bytes": 2026448,
+   "deps": [
+    "nm_stone_normal",
+    "nm_stone_orm",
+    "nm_stone_albedo",
+    "nm_metal_dark_normal",
+    "nm_metal_dark_orm",
+    "nm_metal_dark_albedo",
+    "nm_paver_normal",
+    "nm_paver_orm",
+    "nm_paver_albedo",
+    "nm_glass_orm",
+    "nm_deck_normal",
+    "nm_deck_orm",
+    "nm_deck_albedo",
+    "nm_plants",
+    "nm_lantern_paper_albedo",
+    "nm_canal_normal",
+    "nm_canal_orm",
+    "nm_canal_albedo"
+   ],
+   "uses": [
+    "prop_cabinet",
+    "prop_barrel",
+    "prop_transformer",
+    "prop_crate_1",
+    "prop_equipment_case"
+   ]
+  },
+  {
+   "id": "substation_lightmap",
+   "url": "map/substation_lightmap.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "map",
+   "bytes": 2345594
+  },
+  {
+   "id": "substation_thumb",
+   "url": "map/substation_thumb.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "map",
+   "bytes": 303912
+  },
+  {
+   "id": "sfx_ads_in",
+   "url": "sfx/sfx_ads_in.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5334
+  },
+  {
+   "id": "sfx_ads_out",
+   "url": "sfx/sfx_ads_out.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5120
+  },
+  {
+   "id": "sfx_ambient_yard",
+   "url": "sfx/sfx_ambient_yard.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 64633
+  },
+  {
+   "id": "sfx_casing_large",
+   "url": "sfx/sfx_casing_large.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4795
+  },
+  {
+   "id": "sfx_casing_large_2",
+   "url": "sfx/sfx_casing_large_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4783
+  },
+  {
+   "id": "sfx_casing_large_3",
+   "url": "sfx/sfx_casing_large_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4657
+  },
+  {
+   "id": "sfx_casing_shell",
+   "url": "sfx/sfx_casing_shell.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4344
+  },
+  {
+   "id": "sfx_casing_shell_2",
+   "url": "sfx/sfx_casing_shell_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4289
+  },
+  {
+   "id": "sfx_casing_shell_3",
+   "url": "sfx/sfx_casing_shell_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4207
+  },
+  {
+   "id": "sfx_casing_small",
+   "url": "sfx/sfx_casing_small.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4669
+  },
+  {
+   "id": "sfx_casing_small_2",
+   "url": "sfx/sfx_casing_small_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4488
+  },
+  {
+   "id": "sfx_casing_small_3",
+   "url": "sfx/sfx_casing_small_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4477
+  },
+  {
+   "id": "sfx_dry_fire",
+   "url": "sfx/sfx_dry_fire.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7227
+  },
+  {
+   "id": "sfx_fire_bastion",
+   "url": "sfx/sfx_fire_bastion.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7773
+  },
+  {
+   "id": "sfx_fire_bastion_2",
+   "url": "sfx/sfx_fire_bastion_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 10290
+  },
+  {
+   "id": "sfx_fire_bastion_3",
+   "url": "sfx/sfx_fire_bastion_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8276
+  },
+  {
+   "id": "sfx_fire_bastion_far",
+   "url": "sfx/sfx_fire_bastion_far.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 17753
+  },
+  {
+   "id": "sfx_fire_bastion_far_2",
+   "url": "sfx/sfx_fire_bastion_far_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 20089
+  },
+  {
+   "id": "sfx_fire_bastion_far_3",
+   "url": "sfx/sfx_fire_bastion_far_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 19594
+  },
+  {
+   "id": "sfx_fire_hornet",
+   "url": "sfx/sfx_fire_hornet.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7678
+  },
+  {
+   "id": "sfx_fire_hornet_2",
+   "url": "sfx/sfx_fire_hornet_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7835
+  },
+  {
+   "id": "sfx_fire_hornet_3",
+   "url": "sfx/sfx_fire_hornet_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7704
+  },
+  {
+   "id": "sfx_fire_hornet_far",
+   "url": "sfx/sfx_fire_hornet_far.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 20731
+  },
+  {
+   "id": "sfx_fire_hornet_far_2",
+   "url": "sfx/sfx_fire_hornet_far_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 17621
+  },
+  {
+   "id": "sfx_fire_hornet_far_3",
+   "url": "sfx/sfx_fire_hornet_far_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 17127
+  },
+  {
+   "id": "sfx_fire_lancer",
+   "url": "sfx/sfx_fire_lancer.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 9411
+  },
+  {
+   "id": "sfx_fire_lancer_2",
+   "url": "sfx/sfx_fire_lancer_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7660
+  },
+  {
+   "id": "sfx_fire_lancer_3",
+   "url": "sfx/sfx_fire_lancer_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6853
+  },
+  {
+   "id": "sfx_fire_lancer_far",
+   "url": "sfx/sfx_fire_lancer_far.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 18613
+  },
+  {
+   "id": "sfx_fire_lancer_far_2",
+   "url": "sfx/sfx_fire_lancer_far_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 17376
+  },
+  {
+   "id": "sfx_fire_lancer_far_3",
+   "url": "sfx/sfx_fire_lancer_far_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 20339
+  },
+  {
+   "id": "sfx_fire_longbow",
+   "url": "sfx/sfx_fire_longbow.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6701
+  },
+  {
+   "id": "sfx_fire_longbow_2",
+   "url": "sfx/sfx_fire_longbow_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7678
+  },
+  {
+   "id": "sfx_fire_longbow_3",
+   "url": "sfx/sfx_fire_longbow_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 11515
+  },
+  {
+   "id": "sfx_fire_longbow_far",
+   "url": "sfx/sfx_fire_longbow_far.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 18774
+  },
+  {
+   "id": "sfx_fire_longbow_far_2",
+   "url": "sfx/sfx_fire_longbow_far_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 15903
+  },
+  {
+   "id": "sfx_fire_longbow_far_3",
+   "url": "sfx/sfx_fire_longbow_far_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 18605
+  },
+  {
+   "id": "sfx_fire_mauler",
+   "url": "sfx/sfx_fire_mauler.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7705
+  },
+  {
+   "id": "sfx_fire_mauler_2",
+   "url": "sfx/sfx_fire_mauler_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 10985
+  },
+  {
+   "id": "sfx_fire_mauler_3",
+   "url": "sfx/sfx_fire_mauler_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 10606
+  },
+  {
+   "id": "sfx_fire_mauler_far",
+   "url": "sfx/sfx_fire_mauler_far.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 24259
+  },
+  {
+   "id": "sfx_fire_mauler_far_2",
+   "url": "sfx/sfx_fire_mauler_far_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 22497
+  },
+  {
+   "id": "sfx_fire_mauler_far_3",
+   "url": "sfx/sfx_fire_mauler_far_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 20808
+  },
+  {
+   "id": "sfx_fire_tanto",
+   "url": "sfx/sfx_fire_tanto.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7333
+  },
+  {
+   "id": "sfx_fire_tanto_2",
+   "url": "sfx/sfx_fire_tanto_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8068
+  },
+  {
+   "id": "sfx_fire_tanto_3",
+   "url": "sfx/sfx_fire_tanto_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6263
+  },
+  {
+   "id": "sfx_fire_viper",
+   "url": "sfx/sfx_fire_viper.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 9708
+  },
+  {
+   "id": "sfx_fire_viper_2",
+   "url": "sfx/sfx_fire_viper_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6994
+  },
+  {
+   "id": "sfx_fire_viper_3",
+   "url": "sfx/sfx_fire_viper_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 11202
+  },
+  {
+   "id": "sfx_fire_viper_far",
+   "url": "sfx/sfx_fire_viper_far.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 19257
+  },
+  {
+   "id": "sfx_fire_viper_far_2",
+   "url": "sfx/sfx_fire_viper_far_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 15553
+  },
+  {
+   "id": "sfx_fire_viper_far_3",
+   "url": "sfx/sfx_fire_viper_far_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 18600
+  },
+  {
+   "id": "sfx_footstep_concrete",
+   "url": "sfx/sfx_footstep_concrete.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4462
+  },
+  {
+   "id": "sfx_footstep_concrete_2",
+   "url": "sfx/sfx_footstep_concrete_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4698
+  },
+  {
+   "id": "sfx_footstep_concrete_3",
+   "url": "sfx/sfx_footstep_concrete_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4648
+  },
+  {
+   "id": "sfx_footstep_concrete_4",
+   "url": "sfx/sfx_footstep_concrete_4.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4516
+  },
+  {
+   "id": "sfx_footstep_metal",
+   "url": "sfx/sfx_footstep_metal.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4810
+  },
+  {
+   "id": "sfx_footstep_metal_2",
+   "url": "sfx/sfx_footstep_metal_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5000
+  },
+  {
+   "id": "sfx_footstep_metal_3",
+   "url": "sfx/sfx_footstep_metal_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5191
+  },
+  {
+   "id": "sfx_footstep_metal_4",
+   "url": "sfx/sfx_footstep_metal_4.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4975
+  },
+  {
+   "id": "sfx_headshot_tick",
+   "url": "sfx/sfx_headshot_tick.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6032
+  },
+  {
+   "id": "sfx_headshot_tick_2",
+   "url": "sfx/sfx_headshot_tick_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5024
+  },
+  {
+   "id": "sfx_heartbeat_low",
+   "url": "sfx/sfx_heartbeat_low.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8997
+  },
+  {
+   "id": "sfx_hitmarker",
+   "url": "sfx/sfx_hitmarker.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5531
+  },
+  {
+   "id": "sfx_hitmarker_2",
+   "url": "sfx/sfx_hitmarker_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4800
+  },
+  {
+   "id": "sfx_hitmarker_3",
+   "url": "sfx/sfx_hitmarker_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5224
+  },
+  {
+   "id": "sfx_jump",
+   "url": "sfx/sfx_jump.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6344
+  },
+  {
+   "id": "sfx_jump_2",
+   "url": "sfx/sfx_jump_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7576
+  },
+  {
+   "id": "sfx_kill_sting",
+   "url": "sfx/sfx_kill_sting.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7578
+  },
+  {
+   "id": "sfx_kill_sting_2",
+   "url": "sfx/sfx_kill_sting_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6725
+  },
+  {
+   "id": "sfx_land",
+   "url": "sfx/sfx_land.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4649
+  },
+  {
+   "id": "sfx_land_2",
+   "url": "sfx/sfx_land_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4740
+  },
+  {
+   "id": "sfx_land_3",
+   "url": "sfx/sfx_land_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4744
+  },
+  {
+   "id": "sfx_manifest",
+   "url": "sfx/sfx_manifest.json",
+   "type": "json",
+   "load": "boot",
+   "group": "sfx",
+   "bytes": 41439
+  },
+  {
+   "id": "sfx_match_end",
+   "url": "sfx/sfx_match_end.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 9757
+  },
+  {
+   "id": "sfx_match_start",
+   "url": "sfx/sfx_match_start.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8351
+  },
+  {
+   "id": "sfx_reload_bolt",
+   "url": "sfx/sfx_reload_bolt.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7961
+  },
+  {
+   "id": "sfx_reload_bolt_2",
+   "url": "sfx/sfx_reload_bolt_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5726
+  },
+  {
+   "id": "sfx_reload_large_charge",
+   "url": "sfx/sfx_reload_large_charge.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8092
+  },
+  {
+   "id": "sfx_reload_large_charge_2",
+   "url": "sfx/sfx_reload_large_charge_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8740
+  },
+  {
+   "id": "sfx_reload_large_in",
+   "url": "sfx/sfx_reload_large_in.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8834
+  },
+  {
+   "id": "sfx_reload_large_in_2",
+   "url": "sfx/sfx_reload_large_in_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8209
+  },
+  {
+   "id": "sfx_reload_large_out",
+   "url": "sfx/sfx_reload_large_out.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7256
+  },
+  {
+   "id": "sfx_reload_large_out_2",
+   "url": "sfx/sfx_reload_large_out_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 6933
+  },
+  {
+   "id": "sfx_reload_shell_first",
+   "url": "sfx/sfx_reload_shell_first.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 11655
+  },
+  {
+   "id": "sfx_reload_shell_insert",
+   "url": "sfx/sfx_reload_shell_insert.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 12986
+  },
+  {
+   "id": "sfx_reload_shell_pump",
+   "url": "sfx/sfx_reload_shell_pump.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 12967
+  },
+  {
+   "id": "sfx_reload_small_in",
+   "url": "sfx/sfx_reload_small_in.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 8895
+  },
+  {
+   "id": "sfx_reload_small_out",
+   "url": "sfx/sfx_reload_small_out.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4913
+  },
+  {
+   "id": "sfx_reload_small_rack",
+   "url": "sfx/sfx_reload_small_rack.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 7528
+  },
+  {
+   "id": "sfx_streak_sting",
+   "url": "sfx/sfx_streak_sting.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 10572
+  },
+  {
+   "id": "sfx_streak_sting_2",
+   "url": "sfx/sfx_streak_sting_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 14187
+  },
+  {
+   "id": "sfx_ui_back",
+   "url": "sfx/sfx_ui_back.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5462
+  },
+  {
+   "id": "sfx_ui_back_2",
+   "url": "sfx/sfx_ui_back_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5568
+  },
+  {
+   "id": "sfx_ui_click",
+   "url": "sfx/sfx_ui_click.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5770
+  },
+  {
+   "id": "sfx_ui_click_2",
+   "url": "sfx/sfx_ui_click_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5394
+  },
+  {
+   "id": "sfx_ui_click_3",
+   "url": "sfx/sfx_ui_click_3.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5487
+  },
+  {
+   "id": "sfx_ui_countdown",
+   "url": "sfx/sfx_ui_countdown.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 4855
+  },
+  {
+   "id": "sfx_ui_countdown_go",
+   "url": "sfx/sfx_ui_countdown_go.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 11915
+  },
+  {
+   "id": "sfx_ui_hover",
+   "url": "sfx/sfx_ui_hover.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5374
+  },
+  {
+   "id": "sfx_ui_hover_2",
+   "url": "sfx/sfx_ui_hover_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5588
+  },
+  {
+   "id": "sfx_weapon_switch",
+   "url": "sfx/sfx_weapon_switch.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 5671
+  },
+  {
+   "id": "sfx_weapon_switch_2",
+   "url": "sfx/sfx_weapon_switch_2.ogg",
+   "type": "ogg",
+   "load": "onDemand",
+   "group": "sfx",
+   "bytes": 11131
+  },
+  {
+   "id": "tex_bullethole",
+   "url": "tex/tex_bullet_hole.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "fx",
+   "bytes": 254494
+  },
+  {
+   "id": "tex_decals",
+   "url": "tex/tex_decal_sheet.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "fx",
+   "bytes": 293654
+  },
+  {
+   "id": "fx_holo_koi",
+   "url": "tex/tex_holo_koi.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "fx",
+   "bytes": 87330
+  },
+  {
+   "id": "fx_muzzle",
+   "url": "tex/tex_muzzle_flash.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "fx",
+   "bytes": 79190
+  },
+  {
+   "id": "fx_particles",
+   "url": "tex/tex_spark_smoke.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "fx",
+   "bytes": 100558
+  },
+  {
+   "id": "fx_steam",
+   "url": "tex/tex_steam.webp",
+   "type": "webp",
+   "load": "match",
+   "group": "fx",
+   "bytes": 92330
+  },
+  {
+   "id": "icon_wpn_ar_lancer",
+   "url": "ui/icons/wpn_ar_lancer.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 14854
+  },
+  {
+   "id": "icon_wpn_kn_tanto",
+   "url": "ui/icons/wpn_kn_tanto.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 9782
+  },
+  {
+   "id": "icon_wpn_lmg_bastion",
+   "url": "ui/icons/wpn_lmg_bastion.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 21337
+  },
+  {
+   "id": "icon_wpn_pi_viper",
+   "url": "ui/icons/wpn_pi_viper.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 15792
+  },
+  {
+   "id": "icon_wpn_sg_mauler",
+   "url": "ui/icons/wpn_sg_mauler.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 10950
+  },
+  {
+   "id": "icon_wpn_smg_hornet",
+   "url": "ui/icons/wpn_smg_hornet.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 16612
+  },
+  {
+   "id": "icon_wpn_sr_longbow",
+   "url": "ui/icons/wpn_sr_longbow.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 20161
+  },
+  {
+   "id": "logo",
+   "url": "ui/logo.png",
+   "type": "png",
+   "load": "onDemand",
+   "group": "ui",
+   "bytes": 226324
+  },
+  {
+   "id": "wpn_ar_lancer",
+   "url": "weapons/wpn_ar_lancer.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 1226524
+  },
+  {
+   "id": "wpn_ar_lancer_tp",
+   "url": "weapons/wpn_ar_lancer_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 212428
+  },
+  {
+   "id": "wpn_kn_tanto",
+   "url": "weapons/wpn_kn_tanto.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 939788
+  },
+  {
+   "id": "wpn_kn_tanto_tp",
+   "url": "weapons/wpn_kn_tanto_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 148884
+  },
+  {
+   "id": "wpn_lmg_bastion",
+   "url": "weapons/wpn_lmg_bastion.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 1420188
+  },
+  {
+   "id": "wpn_lmg_bastion_tp",
+   "url": "weapons/wpn_lmg_bastion_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 238740
+  },
+  {
+   "id": "wpn_pi_viper",
+   "url": "weapons/wpn_pi_viper.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 1242440
+  },
+  {
+   "id": "wpn_pi_viper_tp",
+   "url": "weapons/wpn_pi_viper_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 180976
+  },
+  {
+   "id": "wpn_sg_mauler",
+   "url": "weapons/wpn_sg_mauler.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 1162552
+  },
+  {
+   "id": "wpn_sg_mauler_tp",
+   "url": "weapons/wpn_sg_mauler_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 201372
+  },
+  {
+   "id": "wpn_smg_hornet",
+   "url": "weapons/wpn_smg_hornet.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 1085680
+  },
+  {
+   "id": "wpn_smg_hornet_tp",
+   "url": "weapons/wpn_smg_hornet_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 189596
+  },
+  {
+   "id": "wpn_sr_longbow",
+   "url": "weapons/wpn_sr_longbow.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 798820
+  },
+  {
+   "id": "wpn_sr_longbow_tp",
+   "url": "weapons/wpn_sr_longbow_tp.glb",
+   "type": "glb",
+   "load": "match",
+   "group": "weapons",
+   "bytes": 160620
+  }
+ ]
+}
